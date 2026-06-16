@@ -1,0 +1,263 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Eman Ahmed Saeed - Portfolio</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Cairo:wght@300;400;600;700&family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+</head>
+<body class="dark-mode">
+    
+    <!-- Custom Cursor -->
+    <div id="cursor" class="cursor-glow"></div>
+
+    <!-- Animated Background Orbs -->
+    <div class="background-orbs">
+        <div class="orb orb-1"></div>
+        <div class="orb orb-2"></div>
+        <div class="orb orb-3"></div>
+    </div>
+
+    <!-- Navbar -->
+    <nav>
+        <div class="nav-content">
+            <div class="logo">E.A.S</div>
+            <ul class="nav-links">
+                <li><a href="#summary" data-i18n="navSummary">About</a></li>
+                <li><a href="#experience" data-i18n="navExperience">Experience</a></li>
+                <li><a href="#education" data-i18n="navEducation">Education</a></li>
+                <li><a href="#skills" data-i18n="navSkills">Skills</a></li>
+                <li><a href="#contact" data-i18n="navContact">Contact</a></li>
+            </ul>
+            <div class="nav-controls">
+                <button id="theme-toggle" aria-label="Toggle Theme">
+                    <svg class="icon sun-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M12,7c-2.76,0-5,2.24-5,5s2.24,5,5,5s5-2.24,5-5S14.76,7,12,7z M2,13h2c0.55,0,1-0.45,1-1s-0.45-1-1-1H2c-0.55,0-1,0.45-1,1S1.45,13,2,13z M20,13h2c0.55,0,1-0.45,1-1s-0.45-1-1-1h-2c-0.55,0-1,0.45-1,1S19.45,13,20,13z M11,2v2c0,0.55,0.45,1,1,1s1-0.45,1-1V2c0-0.55-0.45-1-1-1S11,1.45,11,2z M11,20v2c0,0.55,0.45,1,1,1s1-0.45,1-1v-2c0-0.55-0.45-1-1-1S11,19.45,11,20z M5.99,4.58c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0s0.39-1.03,0-1.41L5.99,4.58z M18.36,16.95c-0.39-0.39-1.03-0.39-1.41,0c-0.39,0.39-0.39,1.03,0,1.41l1.06,1.06c0.39,0.39,1.03,0.39,1.41,0c0.39-0.39,0.39-1.03,0-1.41L18.36,16.95z M19.42,5.99c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L19.42,5.99z M7.05,18.36c0.39-0.39,0.39-1.03,0-1.41c-0.39-0.39-1.03-0.39-1.41,0l-1.06,1.06c-0.39,0.39-0.39,1.03,0,1.41s1.03,0.39,1.41,0L7.05,18.36z"/></svg>
+                    <svg class="icon moon-icon" viewBox="0 0 24 24"><path fill="currentColor" d="M12,3c-4.97,0-9,4.03-9,9s4.03,9,9,9s9-4.03,9-9c0-0.46-0.04-0.92-0.1-1.36c-0.98,1.37-2.58,2.26-4.4,2.26c-2.98,0-5.4-2.42-5.4-5.4c0-1.81,0.89-3.42,2.26-4.4C12.92,3.04,12.46,3,12,3L12,3z"/></svg>
+                </button>
+                <button id="lang-toggle" aria-label="Toggle Language" class="btn-lang">عربي</button>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <header class="hero" id="home">
+        <div class="hero-content fade-in">
+            <div class="hero-badge" data-i18n="location">📍 Riyadh, Saudi Arabia</div>
+            <h1 data-i18n="name" class="glitch" data-text="Eman Ahmed Saeed">Eman Ahmed Saeed</h1>
+            <h2 data-i18n="titles">Human Resources Assistant | Public Relations Specialist</h2>
+            
+            <div class="contact-links">
+                <span class="phone glass-pill" dir="ltr">📞 +966 53 489 8281</span>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Summary -->
+        <section id="summary" class="summary card tilt-card fade-in">
+            <h3 data-i18n="summaryTitle">Professional Summary</h3>
+            <p data-i18n="summaryText" class="large-text">Experienced Human Resources and Public Relations professional with a strong background in employee support, customer relations, government platforms, and administrative coordination. Knowledgeable in Saudi labor regulations, communication, and stakeholder management, with excellent organizational and problem-solving skills.</p>
+        </section>
+
+        <!-- Experience -->
+        <section id="experience" class="experience fade-in">
+            <h3 class="section-title" data-i18n="experienceTitle">Professional Experience</h3>
+            <div class="timeline">
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card tilt-card">
+                        <h4 data-i18n="exp1Role">HR Assistant</h4>
+                        <h5 data-i18n="exp1Company">Modaway Company for Trading | Riyadh, Saudi Arabia</h5>
+                        <p class="date" data-i18n="exp1Date">2022 – Present</p>
+                        <ul data-i18n="exp1Desc">
+                            <li>Assisted in daily human resources operations, ensuring compliance with company policies.</li>
+                            <li>Maintained employee records, handled recruitment scheduling, and onboardings.</li>
+                            <li>Monitored attendance, prepared payroll data, and managed leave requests.</li>
+                            <li>Coordinated training sessions, events, and performance evaluations.</li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card tilt-card">
+                        <h4 data-i18n="exp2Role">Public Relations Officer</h4>
+                        <h5 data-i18n="exp2Company">Meras Medical Company | Riyadh, Saudi Arabia</h5>
+                        <p class="date" data-i18n="exp2Date">2020 – 2022</p>
+                        <ul data-i18n="exp2Desc">
+                            <li>Managed relationships with clients, partners, and external stakeholders.</li>
+                            <li>Coordinated communications with government entities and suppliers.</li>
+                            <li>Organized corporate meetings, events, and promotional activities.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card tilt-card">
+                        <h4 data-i18n="exp3Role">Public Relations Officer</h4>
+                        <h5 data-i18n="exp3Company">Derma Medical Company | Riyadh, Saudi Arabia</h5>
+                        <p class="date" data-i18n="exp3Date">2019 – 2020</p>
+                        <ul data-i18n="exp3Desc">
+                            <li>Maintained communication with healthcare providers, clients, and regulatory authorities.</li>
+                            <li>Prepared and reviewed official documents, letters, and administrative reports.</li>
+                            <li>Managed appointments and follow-up activities with external parties.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card tilt-card">
+                        <h4 data-i18n="exp4Role">Public Relations Officer</h4>
+                        <h5 data-i18n="exp4Company">Saudi British Hospital | Riyadh, Saudi Arabia</h5>
+                        <p class="date" data-i18n="exp4Date">2012 – 2019</p>
+                        <ul data-i18n="exp4Desc">
+                            <li>Served as the primary liaison between the hospital, patients, and government agencies.</li>
+                            <li>Coordinated hospital events, awareness campaigns, and community initiatives.</li>
+                            <li>Supported patient satisfaction efforts by facilitating effective communication.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card tilt-card">
+                        <h4 data-i18n="exp5Role">Customer Service Representative</h4>
+                        <h5 data-i18n="exp5Company">Saudi British Hospital | Riyadh, Saudi Arabia</h5>
+                        <p class="date" data-i18n="exp5Date">2011 – 2012</p>
+                        <ul data-i18n="exp5Desc">
+                            <li>Assisted patients and visitors with information regarding hospital services.</li>
+                            <li>Scheduled appointments and coordinated with medical departments.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div class="timeline-item fade-in">
+                    <div class="timeline-dot"></div>
+                    <div class="timeline-content card tilt-card">
+                        <h4 data-i18n="exp6Role">Administrative Secretary</h4>
+                        <h5 data-i18n="exp6Company">Ban Foundation for University Services | Riyadh, Saudi Arabia</h5>
+                        <p class="date" data-i18n="exp6Date">2010 – 2011</p>
+                        <ul data-i18n="exp6Desc">
+                            <li>Provided administrative and secretarial support to management.</li>
+                            <li>Managed correspondence, document filing, and record-keeping systems.</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="fade-in">
+            <h3 class="section-title" data-i18n="educationTitle">Education</h3>
+            <div class="grid-2">
+                <div class="education card tilt-card fade-in">
+                    <div class="edu-item">
+                        <h4 data-i18n="edu1Degree">Bachelor's Degree in Digital Media</h4>
+                        <p data-i18n="edu1School">MidOcean University</p>
+                        <span class="date glass-pill" data-i18n="edu1Date">2022 – 2026</span>
+                    </div>
+                </div>
+                <div class="education card tilt-card fade-in">
+                    <div class="edu-item">
+                        <h4 data-i18n="edu2Degree">High School Diploma</h4>
+                        <p data-i18n="edu2School">Riyadh Model Institute</p>
+                        <span class="date glass-pill" data-i18n="edu2Date">2008 – 2010</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="skills" class="fade-in">
+            <div class="grid-2">
+                <!-- Skills -->
+                <div class="skills card tilt-card fade-in">
+                    <h3 data-i18n="skillsTitle">Skills</h3>
+                    <div class="tags">
+                        <span class="tag" data-i18n="skill1">Human Resources Administration</span>
+                        <span class="tag" data-i18n="skill2">Public Relations</span>
+                        <span class="tag" data-i18n="skill3">Customer Service</span>
+                        <span class="tag" data-i18n="skill4">Saudi Labor Law</span>
+                        <span class="tag" data-i18n="skill5">Government Platforms (Qiwa, Mudad, Muqeem)</span>
+                        <span class="tag" data-i18n="skill6">Ministry of Commerce Platforms</span>
+                        <span class="tag" data-i18n="skill7">Communication Skills</span>
+                        <span class="tag" data-i18n="skill8">Time Management</span>
+                        <span class="tag" data-i18n="skill9">E-Commerce Systems</span>
+                        <span class="tag" data-i18n="skill10">Problem Solving</span>
+                    </div>
+                </div>
+                
+                <!-- Languages & Additional -->
+                <div class="side-col">
+                    <div class="languages card tilt-card fade-in">
+                        <h3 data-i18n="languagesTitle">Languages</h3>
+                        <div class="lang-item">
+                            <strong data-i18n="lang1">Arabic</strong>
+                            <span class="pill" data-i18n="lang1Level">Native</span>
+                        </div>
+                        <div class="lang-item">
+                            <strong data-i18n="lang2">English</strong>
+                            <span class="pill" data-i18n="lang2Level">Advanced</span>
+                        </div>
+                    </div>
+
+                    <div class="additional card tilt-card fade-in">
+                        <h3 data-i18n="additionalTitle">Additional Information</h3>
+                        <ul>
+                            <li data-i18n="add1">Valid Transferable Iqama</li>
+                            <li data-i18n="add2">Valid Driving License</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section id="courses" class="courses card tilt-card fade-in">
+            <h3 data-i18n="coursesTitle">Courses</h3>
+            <ul class="course-list">
+                <li class="fade-in"><strong data-i18n="course1Title">Introduction to Human Resources:</strong> <span data-i18n="course1Desc">Foundational knowledge of HR functions.</span></li>
+                <li class="fade-in"><strong data-i18n="course2Title">Public Relations:</strong> <span data-i18n="course2Desc">Corporate image management and stakeholder engagement.</span></li>
+                <li class="fade-in"><strong data-i18n="course3Title">Communication Skills:</strong> <span data-i18n="course3Desc">Verbal/written abilities and conflict resolution.</span></li>
+                <li class="fade-in"><strong data-i18n="course4Title">Time Management:</strong> <span data-i18n="course4Desc">Task prioritization and workload management.</span></li>
+                <li class="fade-in"><strong data-i18n="course5Title">Customer Service:</strong> <span data-i18n="course5Desc">Relationship management and service excellence.</span></li>
+            </ul>
+        </section>
+
+        <!-- New Advanced Contact Section -->
+        <section id="contact" class="fade-in">
+            <h3 class="section-title" data-i18n="contactTitle">Contact Info</h3>
+            <p class="contact-desc fade-in" data-i18n="contactDesc">Let's connect! Feel free to reach out for professional opportunities or collaborations.</p>
+            
+            <div class="contact-grid">
+                <a href="mailto:eman-14131@hotmail.com" class="contact-card card tilt-card fade-in">
+                    <div class="contact-icon">✉️</div>
+                    <h4 data-i18n="contactEmail">Email</h4>
+                    <p>eman-14131@hotmail.com</p>
+                </a>
+                
+                <div class="contact-card card tilt-card fade-in">
+                    <div class="contact-icon">📞</div>
+                    <h4 data-i18n="contactPhone">Phone</h4>
+                    <p dir="ltr">+966 53 489 8281</p>
+                </div>
+
+                <div class="contact-card card tilt-card fade-in">
+                    <div class="contact-icon">📍</div>
+                    <h4 data-i18n="contactLocation">Location</h4>
+                    <p>Riyadh, Saudi Arabia</p>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <footer>
+        <p data-i18n="footerText">© 2026 Eman Ahmed Saeed. All rights reserved.</p>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
